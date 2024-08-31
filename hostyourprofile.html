@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plan Services</title>
+	<style>
+		/* Add some basic styling to make the plans look more presentable */
+		.plans {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		
+		.plan {
+			background-color: #f7f7f7;
+			padding: 20px;
+			margin: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			width: calc(33.33% - 20px);
+		}
+		
+		.plan h2 {
+			margin-top: 0;
+		}
+		
+		.plan ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.plan li {
+			margin-bottom: 10px;
+		}
+		
+		.plan button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.plan button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Plan Services</h1>
+	<div class="plans">
+		<div class="plan">
+			<h2>Basic Plan</h2>
+			<ul>
+				<li>Base priority</li>
+				<li>Paid Access To The Website</li>
+				<li>Basic Support</li>
+                <li>Paid Interviews In Tier 3 Companies</li>
+            </ul>
+		</div>
+		<div class="plan">
+			<h2>Premium Plan</h2>
+			<ul>
+				<li>Premium Priority</li>
+				<li>Free Access TO The Website</li>
+				<li>Priority Support</li>
+                <li>Free Interviews In Tier 2 Companies</li>
+			</ul>
+		</div>		
+		<div class="plan">
+			<h2>Enterprise Plan</h2>
+			<ul>
+				<li>Enterprise Priority</li>
+				<li>Free Access To The Website</li>
+				<li>Dedicated Support</li>
+                <li>Free Interviews In Tier 1 Companies</li>
+			</ul>
+		</div>
+	</div>
+    <button>Sign Up</button>
+</body>
+</html>
